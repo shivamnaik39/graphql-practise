@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito'
+}
+
+/* 
+bg: #00203FFF
+accent: #ADEFD1FF
+
+*/
+
+body {
+  background-color: #eee;
+  padding: 1rem;
+  background-color: #00203FFF;
+  color: #ADEFD1FF
+}
+
+#main {
+  padding: 1rem;
+}
+
+#main h1 {
+  text-align: center;
+}
+
+#book-list {
+  padding: 1rem;
+  display: flex;
+}
+
+#books {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#book-list li {
+  list-style-type: none;
+  border: 2px solid #ADEFD1FF;
+  display: inline;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+#book-list ul {
+  display: flex;
+  /* height: 400px; */
+
+}
+
+#add-book {
+  margin-top: 1rem;
+}
